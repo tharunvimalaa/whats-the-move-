@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "student": {
+    "timezone": "America/New_York",
+    "campus": "Synthetic College",
+    "start_location_id": "home"
+  },
+  "planning_date": "2026-11-01",
+  "as_of": "2026-11-01T00:30:00-04:00",
+  "window": {
+    "start": "2026-11-01T00:00:00-04:00",
+    "end": "2026-11-01T04:00:00-05:00"
+  },
+  "budget_cents": 2000,
+  "sources": {
+    "canvas": {
+      "connected": false
+    },
+    "calendar": {
+      "connected": false
+    }
+  },
+  "fixed_commitments": [],
+  "academic_tasks": [],
+  "preferences": {
+    "mood": "chill",
+    "interests": [
+      "music",
+      "food"
+    ],
+    "want_both": true,
+    "area_preference": "on_campus"
+  },
+  "travel": {
+    "legs": [
+      {
+        "from": "home",
+        "to": "bldg_class",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "library",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "mu_lawn",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "tacos",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "climb",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "downtown",
+        "minutes": 25,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "job_site",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "library",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "mu_lawn",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "climb",
+        "minutes": 18,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "downtown",
+        "minutes": 22,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "mu_lawn",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "tacos",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "cafe",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "climb",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "downtown",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "downtown",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "job_site",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "cafe",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "job_site",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "cafe",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "job_site",
+        "to": "cafe",
+        "minutes": 9,
+        "mode": "walk",
+        "source": "synthetic"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "ev_repeat_hour",
+      "kind": "event",
+      "title": "Fall-back party (sample)",
+      "start": "2026-11-01T01:30:00-04:00",
+      "end": "2026-11-01T01:15:00-05:00",
+      "cost_cents": 0,
+      "location_id": "downtown",
+      "tags": [
+        "social"
+      ],
+      "availability": "open",
+      "source": {
+        "url": "https://events.example.edu/fallback",
+        "organizer_type": "organizer",
+        "checked_at": "2026-10-31T20:00:00-04:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified"
+      }
+    }
+  ],
+  "data_origin": "synthetic_sample"
+}

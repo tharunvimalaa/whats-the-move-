@@ -1,0 +1,354 @@
+{
+  "schema_version": 1,
+  "student": {
+    "timezone": "America/Phoenix",
+    "campus": "Synthetic State University, Main Campus",
+    "start_location_id": "home"
+  },
+  "planning_date": "2026-10-26",
+  "as_of": "2026-10-26T08:30:00-07:00",
+  "window": {
+    "start": "2026-10-26T09:00:00",
+    "end": "2026-10-26T22:00:00"
+  },
+  "budget_cents": 3000,
+  "sources": {
+    "canvas": {
+      "connected": false
+    },
+    "web": {
+      "searched": false,
+      "error": "search unavailable"
+    }
+  },
+  "fixed_commitments": [
+    {
+      "id": "class_prog",
+      "title": "Intro Programming lecture",
+      "start": "2026-10-26T10:30:00",
+      "end": "2026-10-26T11:45:00",
+      "location_id": "bldg_class",
+      "source": "manual"
+    },
+    {
+      "id": "shift_cafe",
+      "title": "Work shift",
+      "start": "2026-10-26T17:00:00",
+      "end": "2026-10-26T20:00:00",
+      "location_id": "job_site",
+      "source": "manual"
+    }
+  ],
+  "academic_tasks": [
+    {
+      "id": "t_essay",
+      "title": "Essay 2 draft",
+      "course": "ENG 101 (synthetic)",
+      "due": "2026-10-26T23:59:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 90,
+      "source": "manual"
+    },
+    {
+      "id": "t_quiz",
+      "title": "Chapter 5 quiz",
+      "course": "BIO 100 (synthetic)",
+      "due": "2026-10-27T10:00:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 45,
+      "source": "manual"
+    },
+    {
+      "id": "t_lab",
+      "title": "Lab 4 report",
+      "course": "CHM 101 (synthetic)",
+      "due": "2026-10-26T12:00:00",
+      "submission_status": "submitted",
+      "source": "manual"
+    },
+    {
+      "id": "t_reading",
+      "title": "Reading response",
+      "course": "HIS 210 (synthetic)",
+      "due": "2026-10-27T23:59:00",
+      "submission_status": "unknown",
+      "source": "manual"
+    },
+    {
+      "id": "t_project",
+      "title": "Group project outline",
+      "course": "CSE 110 (synthetic)",
+      "due": "2026-10-31T23:59:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 120,
+      "source": "manual"
+    }
+  ],
+  "preferences": {
+    "mood": "chill",
+    "interests": [
+      "music",
+      "food"
+    ],
+    "want_both": true,
+    "area_preference": "on_campus"
+  },
+  "travel": {
+    "legs": [
+      {
+        "from": "home",
+        "to": "bldg_class",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "library",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "mu_lawn",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "tacos",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "climb",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "downtown",
+        "minutes": 25,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "job_site",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "library",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "mu_lawn",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "climb",
+        "minutes": 18,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "downtown",
+        "minutes": 22,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "mu_lawn",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "tacos",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "cafe",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "climb",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "downtown",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "downtown",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "job_site",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "cafe",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "job_site",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "cafe",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "job_site",
+        "to": "cafe",
+        "minutes": 9,
+        "mode": "walk",
+        "source": "synthetic"
+      }
+    ]
+  },
+  "candidates": [],
+  "data_origin": "synthetic_sample"
+}

@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "student": {
+    "timezone": "America/Phoenix",
+    "campus": "Synthetic State University, Main Campus",
+    "start_location_id": "home"
+  },
+  "planning_date": "2026-10-26",
+  "as_of": "2026-10-26T08:30:00-07:00",
+  "window": {
+    "start": "2026-10-26T09:00:00",
+    "end": "2026-10-26T09:00:00"
+  },
+  "budget_cents": 3000,
+  "sources": {
+    "canvas": {
+      "connected": true,
+      "synced_at": "2026-10-26T07:45:00-07:00"
+    },
+    "calendar": {
+      "connected": true,
+      "synced_at": "2026-10-26T07:45:00-07:00",
+      "calendars_authorized": [
+        "synthetic_primary"
+      ],
+      "calendars_read": [
+        "synthetic_primary"
+      ],
+      "coverage": "complete"
+    }
+  },
+  "fixed_commitments": [
+    {
+      "id": "class_prog",
+      "title": "Intro Programming lecture",
+      "start": "2026-10-26T10:30:00",
+      "end": "2026-10-26T11:45:00",
+      "location_id": "bldg_class",
+      "source": "google_calendar"
+    },
+    {
+      "id": "shift_cafe",
+      "title": "Work shift",
+      "start": "2026-10-26T17:00:00",
+      "end": "2026-10-26T20:00:00",
+      "location_id": "job_site",
+      "source": "google_calendar"
+    }
+  ],
+  "academic_tasks": [
+    {
+      "id": "t_essay",
+      "title": "Essay 2 draft",
+      "course": "ENG 101 (synthetic)",
+      "due": "2026-10-26T23:59:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 90,
+      "source": "canvas"
+    },
+    {
+      "id": "t_quiz",
+      "title": "Chapter 5 quiz",
+      "course": "BIO 100 (synthetic)",
+      "due": "2026-10-27T10:00:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 45,
+      "source": "canvas"
+    },
+    {
+      "id": "t_lab",
+      "title": "Lab 4 report",
+      "course": "CHM 101 (synthetic)",
+      "due": "2026-10-26T12:00:00",
+      "submission_status": "submitted",
+      "source": "canvas"
+    },
+    {
+      "id": "t_reading",
+      "title": "Reading response",
+      "course": "HIS 210 (synthetic)",
+      "due": "2026-10-27T23:59:00",
+      "submission_status": "unknown",
+      "source": "canvas"
+    },
+    {
+      "id": "t_project",
+      "title": "Group project outline",
+      "course": "CSE 110 (synthetic)",
+      "due": "2026-10-31T23:59:00",
+      "submission_status": "unsubmitted",
+      "remaining_minutes": 120,
+      "source": "canvas"
+    }
+  ],
+  "preferences": {
+    "mood": "chill",
+    "interests": [
+      "music",
+      "food"
+    ],
+    "want_both": true,
+    "area_preference": "on_campus"
+  },
+  "travel": {
+    "legs": [
+      {
+        "from": "home",
+        "to": "bldg_class",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "library",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "mu_lawn",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "tacos",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "climb",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "downtown",
+        "minutes": 25,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "job_site",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "home",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "library",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "mu_lawn",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "climb",
+        "minutes": 18,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "downtown",
+        "minutes": 22,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "bldg_class",
+        "to": "cafe",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "mu_lawn",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "tacos",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "job_site",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "library",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "tacos",
+        "minutes": 8,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "climb",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "downtown",
+        "minutes": 20,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "mu_lawn",
+        "to": "cafe",
+        "minutes": 5,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "climb",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "downtown",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "job_site",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "tacos",
+        "to": "cafe",
+        "minutes": 6,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "downtown",
+        "minutes": 10,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "job_site",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "climb",
+        "to": "cafe",
+        "minutes": 12,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "job_site",
+        "minutes": 15,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "downtown",
+        "to": "cafe",
+        "minutes": 14,
+        "mode": "walk",
+        "source": "synthetic"
+      },
+      {
+        "from": "job_site",
+        "to": "cafe",
+        "minutes": 9,
+        "mode": "walk",
+        "source": "synthetic"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "id": "ev_concert",
+      "kind": "event",
+      "title": "Lunchtime acoustic set (sample)",
+      "start": "2026-10-26T12:30:00",
+      "end": "2026-10-26T13:30:00",
+      "cost_cents": 0,
+      "location_id": "mu_lawn",
+      "area": "on_campus",
+      "tags": [
+        "music",
+        "social"
+      ],
+      "moods": [
+        "chill"
+      ],
+      "listing_status": "active",
+      "availability": "open",
+      "source": {
+        "url": "https://events.example.edu/acoustic-set",
+        "name": "Synthetic acoustic-set",
+        "organizer_type": "organizer",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "ev_market",
+      "kind": "event",
+      "title": "Night market (sample)",
+      "start": "2026-10-26T20:45:00",
+      "end": "2026-10-26T21:45:00",
+      "cost_cents": 800,
+      "location_id": "downtown",
+      "area": "community",
+      "tags": [
+        "food",
+        "social"
+      ],
+      "listing_status": "active",
+      "availability": "open",
+      "source": {
+        "url": "https://events.example.edu/night-market",
+        "name": "Synthetic night-market",
+        "organizer_type": "organizer",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "food_tacos",
+      "kind": "food",
+      "title": "Taco counter (sample)",
+      "duration_minutes": 45,
+      "cost_cents": 1100,
+      "location_id": "tacos",
+      "area": "community",
+      "tags": [
+        "food"
+      ],
+      "availability": "open",
+      "hours": [
+        {
+          "open": "2026-10-26T11:00:00",
+          "close": "2026-10-26T21:00:00"
+        }
+      ],
+      "source": {
+        "url": "https://events.example.edu/tacos",
+        "name": "Synthetic tacos",
+        "organizer_type": "venue",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "act_climb",
+      "kind": "activity",
+      "title": "Climbing gym day pass (sample)",
+      "duration_minutes": 90,
+      "cost_cents": 1500,
+      "location_id": "climb",
+      "area": "community",
+      "tags": [
+        "active",
+        "social"
+      ],
+      "availability": "open",
+      "hours": [
+        {
+          "open": "2026-10-26T12:00:00",
+          "close": "2026-10-26T21:00:00"
+        }
+      ],
+      "source": {
+        "url": "https://events.example.edu/climb",
+        "name": "Synthetic climb",
+        "organizer_type": "venue",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "place_cafe",
+      "kind": "place",
+      "title": "Quiet cafe (sample)",
+      "duration_minutes": 45,
+      "cost_cents": 600,
+      "location_id": "cafe",
+      "area": "community",
+      "tags": [
+        "chill"
+      ],
+      "moods": [
+        "chill"
+      ],
+      "availability": "open",
+      "hours": [
+        {
+          "open": "2026-10-26T07:00:00",
+          "close": "2026-10-26T19:00:00"
+        }
+      ],
+      "source": {
+        "url": "https://events.example.edu/cafe",
+        "name": "Synthetic cafe",
+        "organizer_type": "venue",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "ev_canceled",
+      "kind": "event",
+      "title": "Open mic (sample)",
+      "start": "2026-10-26T15:00:00",
+      "end": "2026-10-26T16:00:00",
+      "cost_cents": 0,
+      "location_id": "mu_lawn",
+      "listing_status": "canceled",
+      "availability": "open",
+      "source": {
+        "url": "https://events.example.edu/open-mic",
+        "name": "Synthetic open-mic",
+        "organizer_type": "organizer",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "verified",
+        "availability": "verified",
+        "hours": "verified"
+      }
+    },
+    {
+      "id": "ev_price_unverified",
+      "kind": "event",
+      "title": "Improv show (sample)",
+      "start": "2026-10-26T15:30:00",
+      "end": "2026-10-26T16:30:00",
+      "cost_cents": 500,
+      "location_id": "mu_lawn",
+      "area": "on_campus",
+      "tags": [
+        "social"
+      ],
+      "availability": "open",
+      "source": {
+        "url": "https://events.example.edu/improv",
+        "name": "Synthetic improv",
+        "organizer_type": "organizer",
+        "checked_at": "2026-10-26T08:00:00-07:00"
+      },
+      "verification": {
+        "time": "verified",
+        "price": "unverified",
+        "availability": "verified"
+      }
+    }
+  ],
+  "data_origin": "synthetic_sample"
+}
