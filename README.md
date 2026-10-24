@@ -48,3 +48,8 @@ Not installed or published yet. When approved: put the repository on GitHub, the
 - Commitments entirely outside the window are ignored, so a class right after the window is not protected by travel time unless the window ends earlier.
 - Naive local times inside a repeated daylight-saving hour are ambiguous; send an explicit offset on such days.
 - Only synthetic data is bundled and tested. No live Canvas, Calendar or web flow has been exercised, and the skill has not been run on Cubbie.
+
+- <img width="1603" height="820" alt="image" src="https://github.com/user-attachments/assets/048c260a-1633-4295-8b98-bcad00a00730" />
+<img width="1603" height="820" alt="image" src="https://github.com/user-attachments/assets/83f5497b-fd35-48f2-bec0-402c7895cadf" />
+
+
