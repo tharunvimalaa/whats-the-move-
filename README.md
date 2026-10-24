@@ -28,7 +28,7 @@ You'll get a personalized plan that balances getting your work done with actuall
 
 Want more studying? More going out? A cheaper plan? Just tell Cubbie. It can help you explore different options without changing your calendar unless you approve.
 
-No fake events. No random made-up plans. Unverified details and estimates are labeled.
+
 
 
 <img width="1603" height="820" alt="image" src="https://github.com/user-attachments/assets/048c260a-1633-4295-8b98-bcad00a00730" />
